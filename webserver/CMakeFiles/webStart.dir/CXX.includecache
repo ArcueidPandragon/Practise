@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jason/Desktop/Practise/webserver/error.h
+cstdlib
+-
+stdio.h
+-
+
+/home/jason/Desktop/Practise/webserver/eventLoop.h
+
+/home/jason/Desktop/Practise/webserver/main.cpp
+eventLoop.h
+/home/jason/Desktop/Practise/webserver/eventLoop.h
+error.h
+/home/jason/Desktop/Practise/webserver/error.h
+stdlib.h
+-
+unistd.h
+-
+
