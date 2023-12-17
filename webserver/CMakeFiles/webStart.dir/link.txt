@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/webStart.dir/main.cpp.o  -o webStart -rdynamic 
