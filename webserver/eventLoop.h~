@@ -7,7 +7,7 @@
 
 class eventLoop{
 	private:
-		typedef std::function<void()> functor;
+		typedef std::function<int()> functor;
 		Epoll* epoll_;
 		int wakeUpfd_;
 		channel* wakeChannel;

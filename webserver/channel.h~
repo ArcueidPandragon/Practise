@@ -56,7 +56,7 @@ class channel{
 		}
 
 		void connectFunction();
-		void add_channel();
+		std::function<void()> add_channel();
 
 
 };

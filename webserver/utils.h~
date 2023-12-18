@@ -4,7 +4,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include "error.h"
+#include "error.cpp"
 #define BACKLOG 5
 
 int create_socket_listen(int port){

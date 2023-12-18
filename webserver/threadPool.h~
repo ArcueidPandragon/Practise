@@ -1,4 +1,3 @@
-#pragma once
 #include <vector>
 #include "thread_.h"
 #include "eventLoop.h"
